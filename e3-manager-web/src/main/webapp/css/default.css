@@ -1,0 +1,155 @@
+﻿/*
+	@eric
+*/
+* {
+	font-size: 12px;
+	font-family: Tahoma, Verdana, 微软雅黑, 宋体
+}
+body {
+	background: #D2E0F2;
+}
+
+input {
+	width: 140px;
+	vertical-align: middle;
+	padding: 2px 2px 2px 2px;
+	border-width: 1px;
+	border-left: 1px solid #B2B2B2;
+	border-top: 1px solid #B2B2B2;
+	border-bottom: 1px solid #B2B2B2;
+	border-right: 1px solid #B2B2B2;
+}
+textarea {
+	padding: 0px;
+	overflow-y: auto;
+	border: 1px solid #B2B2B2;
+}
+
+input[readonly] {
+	background-color: #EBEBE4;
+}
+.radio {
+	margin: 0;
+	padding: 0;
+	width: 14px;
+	height: 14px;
+	border: 0px;
+}
+a {
+	color: Black;
+	text-decoration: none;
+}
+a:hover {
+	color: Red;
+	text-decoration: underline;
+}
+
+#body {
+	border: 0;
+	padding: 3px;
+	overflow: hidden;
+}
+#search_area {
+	margin-bottom: 3px;
+	border: 1px solid #99BBE8;
+	background-color: #EFEFEF;
+}
+#openOrClose {
+	display: block;
+	cursor: pointer;
+	background: url(../images/open.jpg) 0 0 no-repeat;
+	margin: 0px auto;
+	padding: 0px;
+	width: 50px;
+	height: 5px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+.footer {
+	text-align: center;
+	color: #15428B;
+	margin: 0px;
+	padding: 0px;
+	line-height: 23px;
+	font-weight: bold;
+}
+
+
+.windowButton {
+	text-align: right;
+	position: absolute;
+	bottom: 10px;
+	right: 7px;
+}
+.showWindowButton {
+	display:block;
+	width:100%;
+	border:0px solid red;
+	text-align: center;
+	height: auto;
+	line-height: 30px;
+	position: absolute;
+	bottom: 10px;
+	/*right: 7px;*/
+	margin: 0 auto;
+}
+.showDetail {
+	color: blue;
+	text-decoration: underline;
+}
+.clearable {
+	background-color: #EBEBE4;
+}
+
+.my-dialog-button {
+	margin-right: 3px;
+	border: 1px solid #ccc !important;
+	padding: 0 5px 0 0 !important;
+}
+.my-search-button {
+	margin-right: 3px;
+	border: 1px solid #ccc !important;
+	padding: 0 5px 0 0 !important;
+	background: url('../images/button_plain_hover.png') repeat-x !important;	
+}
+
+.x {
+	color: #FF0000;
+}
+#parent_win {
+	display:block;
+	overflow:hidden;
+}
+.northTitle {
+	font-family:'微软雅黑';
+	font-size:24px;
+	font-weight:bold;
+	height:60px;
+	line-height:40px;
+}
+.loginInfo {
+	border:0px solid red;
+	display:block;
+	position:absolute;
+	bottom:5px;
+	right:10px;
+}
+#sysVersion{
+	border:0px solid red;
+	height:25px;
+	overflow:hidden;
+	position:absolute;
+	left:10px;
+}
+#nowTime{
+	border:0px solid red;
+	height:25px;
+	width:200px;
+	text-align:left;
+	overflow:hidden;
+	position:absolute;
+	right:10px;
+}
+#conditon{
+	overflow:hidden;
+}
