@@ -1,0 +1,62 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */	
+	border:3px solid #E6E6E6;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.window{ background: #FFF;}
+*html #popup_container{width:304px;}
+
+#popup_content {
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+}
+
+#popup_content.confirm {
+}
+
+#popup_content.prompt {
+}
+
+#popup_message {
+    color: #6B6B6B;
+    margin: 0;
+    padding: 0;
+	text-align:center
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 0em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+.sd_window{ padding:6px; background:rgba(162,162,162,0.8); *+background:#a2a2a2;}
+.sd_window .content{ background:#fff; padding:0 12px 12px 12px;}
+.sd_window .dig_content{ padding:20px;}
+.sd_window .dig_content .sd_img{ width:122px; min-height:150px; float:left; background:url(../images/sd_icon.jpg) left top no-repeat; padding-right:25px;}
+.sd_window .popup_message{ text-align:left; overflow:hidden; zoom:1; color:#646464;}
+.sd_window .popup_message .sd_word{ line-height:30px; font-size:14px;}
+.sd_window .popup_message .sd_word1{ line-height:24px; font-size:12px;}
+.sd_window .popup_message .sd_tel{ padding-top:32px; font-size:12px;}
+.sd_window .titlehead{ height:45px; line-height:45px; background:#fafafa; border-bottom:1px solid #e1e1e1;}
+.sd_window .titlehead h3{ font-size:16px; color:#646464; font-weight:normal;}
+.sd_window .sd_close{ cursor:pointer; display:inline-block; float:right; background: url(../images/sd_close.jpg) left top no-repeat; width:17px; height:20px; position:relative; right:20px; top:13px; }
+.sd_window #popup_panel{margin-top:15px; height:26px; text-align:center; }
+.sd_window .content .sd_btn, .sd_window .content .sd_btn1{ cursor:pointer; padding:5px 15px; *+padding:5px 5px 2px; text-align:center; outline:none; border-radius:3px; margin-right:6px;}
+.sd_window .content .sd_btn{ color:#fff; background:#69af05; border:1px solid #69af05;}
+.sd_window .content .sd_btn:hover{ background:#7ac50f; border:1px solid #7ac50f;}
+.sd_window .content .sd_btn1{ color:#646464; background:#fff; border:1px solid #dcdcdc; }
+.sd_window .content .sd_btn1:hover{ color:#69af05; border:1px solid #dcdcdc;}
+.sd_window .content .sd_floatleft{ float:left;}
