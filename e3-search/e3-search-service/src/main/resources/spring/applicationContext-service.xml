@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
+	<!-- 配置包扫描器 -->
+	<context:component-scan base-package="com.e3mall.search"/>
+	
+	<!-- 使用dubbo发布服务 -->
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+	<dubbo:application name="e3-search" />
+	<dubbo:registry protocol="zookeeper" address="192.168.13.129:2191" />
+	<!-- 用dubbo协议在20881端口暴露服务 -->
+	<dubbo:protocol name="dubbo" port="20882" />
+	<!-- 声明需要暴露的服务接口 -->
+	<dubbo:service interface="com.e3mall.search.service.SearchItemService" ref="searchItemServiceImpl" timeout="600000"/>
+	<dubbo:service interface="com.e3mall.search.service.SearchService" ref="searchServiceImpl" timeout="600000"/>
+</beans>
