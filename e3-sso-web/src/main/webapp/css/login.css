@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+input::-ms-clear{display: none;}
+input::-ms-reveal{display: none;}
+.login_main{ width:1000px; height:auto !important; min-height:500px; _height:100%; background:#fff; margin:0 auto;}
+.login_main .login{float:left;}
+.login_main .pic{ width:540px; height:390px; padding-top:14px; float:left;}
+.login_main .pic img{margin-top:32px;}
+.login_main .login{ width:400px; min-height:100px;}
+.login_main .reg_title{ float:right; margin-right:31px; background:url(/images/reg_bg.jpg); width:125px; height:24px; padding-top:13px; color:#fff; font-size:14px; text-align:center; position:relative; z-index:10;}
+.login_main .reg_title:hover{ background-position:0 -37px; }
+.login_main .login_box{ position:relative; z-index:1; left:0; top:0px; border:1px solid #cdcdcd; height:auto !important; min-height:150px;}
+.login_box ul{ padding:45px 0 0 33px; width:324px;}
+.login_box li span{ display:block;}
+.login_box li span.title{ height:26px; line-height:26px; font-size:12px;}
+.login_box li span.border, .login_box li span.border-error, .login_box li span.border-ok{ width:320px; height:36px; }
+.login_box li span.border-ok{ border:1px solid #69af05;}
+.login_box li span.border-error{ border:1px solid #fa9600;}
+.login_box li span.border{ border:1px solid #cdcdcd;}
+.login_box li input{ width:274px; height:20px; padding:8px 5px; line-height:20px; border: 0 none; float:left; font-size:14px;}
+.login_box li em.icon, .login_box li em.icon1, .login_box li em.icon2{ height:38px; width:30px; float:left; }
+.login_box li em.icon{ background:url(/images/icon.jpg) center no-repeat;  cursor:pointer; }
+.login_box li em.icon1{ background:url(/images/icon1.jpg) center no-repeat;}
+.login_box li em.icon2{ background:url(/images/icon2.jpg) center no-repeat; }
+.login_box li span.error{ background:#ffece5; width:315px; height:20px; line-height:20px; padding-left:5px; border-left:1px solid #fa9600; border-right:1px solid #fa9600; border-bottom:1px solid #fa9600; position: absolute; opacity: 0.9; color:#fa6400; font-size:12px;}
+.login_box li span.error1{ background:#ffece5; width:94px; height:20px; line-height:20px; padding:0 5px; border-left:1px solid #fa9600; border-right:1px solid #fa9600; border-bottom:1px solid #fa9600; position: absolute; *+position:static; opacity: 0.9; color:#fa6400; font-size:12px; margin-top:38px;*margin-top:0px;}
+.login_box li div a.forget-passWord{ display:block; height:22px;  padding-right:5px; text-align:right; color:#515151;}
+.login_box li div a.forget-passWord:hover{ text-decoration:underline;}
+.login_box li .login_btn{ display:block; background:url(/images/login_bg.jpg) left top no-repeat; height:41px; line-height:41px; font-size:18px; text-align:center; color:#f2f1f1; letter-spacing:0.8em;}
+.login_box li .login_btn:hover{ background-position:0 -42px; }
+.login_box li .login-in_btn{ display:block; background:url(/images/login_bg1.jpg) left top no-repeat; height:43px; line-height:43px; font-size:18px; text-align:center; color:#6e9b0c; letter-spacing:0.3em;}
+.login_box .scode{ margin:30px 10px 0 0;}
+.login_box .scode .code{ width:94px; height:20px; line-height:20px; border:1px solid #d5d5d5; margin-right:10px;}
+.login_box .scode .code-ok{ border:1px solid #69af05;width:94px; height:20px; line-height:20px;margin-right:10px;}
+.login_box .scode .code-error{ border:1px solid #fa9600;width:94px; height:20px; line-height:20px;margin-right:10px;}
+.login_box .codeTitle{ width:86px; height:38px; line-height:38px; float:left; margin-left:6px; color:#565656;}
+.login_box .codeTitle a{ color:#6e9b0c;}
+.login_box .codeTitle a:hover{ text-decoration:underline;}
+.login_box .scode .code_spec{ width:80%;position:absolute;*position:relative; height:20px; line-height:20px;}
+
+.login_box li h2.h2{ font-size:12px; font-weight:normal; height:20px; line-height:20px; padding-top:5px;}
+.login_box li div{ color:#176246;}
+.login_box li a.link{ color:#176246; height:26px; line-height:26px; text-decoration:none;}
+.login_box li a.link:hover{ text-decoration:underline;}
+
+.login_box .loginnav{ padding:0;position: absolute; width:100%;}
+.login_box .loginnav li{border-bottom:1px solid #cdcdcd;border-right:1px solid #cdcdcd;height:30px; width:132px; float:left; font-size:14px; line-height:30px; cursor:pointer;}
+.login_box .loginnav li em{ float:left; margin:10px 5px 0 25px; background:url(/images/loginicon.png) no-repeat; width:15px; height:15px;}
+.login_box .loginnav .npay em{ background-position:0 -25px;}
+.login_box .loginnav .nexpress em{ background-position:0 -48px;}
+.login_box .loginnav .bordernone{border-right:0;}
+.login_box .loginnav .curr{border-bottom:1px solid #fff;border-top:2px solid #69af05; position:relative; margin-top:-2px;}
+.login_box .blink{ padding:0; border-top:1px solid #cdcdcd; width:100%;margin:15px 0 0 0;}
+
+.login_main .login_box .top{ background:url(/images/login_top.jpg) left top no-repeat; height:13px;}
+.login_main .login_box .main{ background:url(/images/login_main.jpg) left top repeat-y;}
+.login_main .login_box .bottom{ background:url(/images/login_bottom.jpg) left top no-repeat; height:13px;}
+
+.m-t12{ margin-top:15px;}
+.m-t5{ margin-top:5px;}
+.m-t18{ margin-top:18px;}
+.p-f10{ padding:5px 10px 0 33px;}
+
+/*忘记密码*/
+.login_main .login_header{width: 400px; height:50px; line-height:50px;float:left}
+.login_box .login_forget_password {overflow: hidden;line-height: 30px; text-align:right; color:#515151;}
+.login_box .login_forget_password a{display: inline-block;color: #6e9b0c;}
+.login_box .login_forget_password a:hover{ text-decoration:underline;}
+.login_main1 .login_box .login_forget_password{ width:324px; margin:0 auto}
+.login_main1 .m-t5{ margin-top:25px;*margin-top:0;}
+.login_main1 .login_header{width: 400px; height:45px; line-height:45px; float:left}
+.login_main1 .login_box li h2.h2{ padding-top:0px;}
+.login_main1 .login{ padding:0;}
+.login_header span {display: inline-block;color: #515151;font-size: 16px;float: left;}
+.login_header a{display: inline-block;float: right;font-size: 12px;color: #515151;width: 70px;height: 25px;border:1px solid #34b742;line-height: 25px;text-align: center;margin-top: 12px;background: #fff4f0;}
+.login_main1{width: 440px;position: relative;}
+.login_main1 .login{margin-left: 10px;}
+.login_main1 .login_close {position: absolute;width: 20px;height: 20px;right: 10px;}
+.login_main1 .login_close a{display: inline-block;width: 20px;height: 20px;background: url(/mimages/close.png) no-repeat;}
+
+/*弹窗*/
+ #login_mask {position: absolute; top: 0px; filter: alpha(opacity=50); background-color: #777;z-index: 1000; left: 0px;opacity:0.5; -moz-opacity:0.5;}    
+.login_main1 {width:auto;background: #fff; margin:0; min-height:460px;}
+/*大写锁定*/
+.caplock{width:20px; height:20px; background:url(/images/caplock.png) no-repeat center;margin:-29px 0 0 265px;display:none; position:absolute; z-index:99999; }

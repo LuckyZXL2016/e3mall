@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+/*reset*/
+html {
+  background: #f5f5f5 none repeat scroll 0 0;
+  color: #515151;
+  overflow-y: scroll; }
+
+body, div, td {
+  font-size: 12px;
+  font-family: "宋体", Arial, Helvetica, sans-serif;
+  line-height: 1.4em; }
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: none; }
+
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ul li {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  zoom: 1; }
+
+input, textarea, select, button {
+  font-family: "微软雅黑";
+  font-size: 12px;
+  font-weight: inherit;
+  vertical-align: middle; }
+
+input[type=radio], input[type=checkbox] {
+  vertical-align: middle; }
+
+input {
+  outline: none; }
+
+/*base*/
+.floatleft {
+  float: left; }
+
+.floatright {
+  float: right; }
+
+.aligncenter {
+  text-align: center; }
+
+.alignright {
+  text-align: right; }
+
+.alignleft {
+  text-align: left; }
+
+.block {
+  display: block; }
+
+.forcewrap {
+  word-wrap: break-word;
+  word-break: break-all;
+  text-overflow: hidden;
+  overflow: hidden; }
+
+.borderless {
+  border: none; }
+
+/*clear*/
+.clear {
+  clear: both;
+  line-height: 0;
+  height: 0;
+  font-size: 0; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+a {
+  text-decoration: none;
+  color: #515151; }
+
+a:hover {
+  color: #515151; }
+
+.hide {
+  display: none; }
+  
+.header{ width:1000px; /*height:75px;*/ margin:0 auto;}
+.header img, .header span{ margin:10px 0; float:left;}
+.header span{ line-height:70px; font-size:24px; padding-left:3px; font-family:"微软雅黑";}
+.footer{ width:1000px; margin:0 auto; padding-top:20px;}
+.footer span, .footer p{ line-height:26px; margin:0 auto; text-align:center;}
+.footer span{ display:block; color:#176246;}
+.footer span a.footerlink{ color:#176246;}
+.footer span a.footerlink:hover{ text-decoration:underline;}
+.footer span a.footerlink1{ color:#666; text-decoration:none;}
+.footer span a.footerlink1:hover{ text-decoration:underline;}
+.footer p{ line-height:26px;}

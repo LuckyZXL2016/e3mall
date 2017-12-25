@@ -1,0 +1,325 @@
+@charset "UTF-8";
+input::-ms-clear{display: none;}
+input::-ms-reveal{display: none;}
+
+/* CSS Document */
+.reg_main{ width:960px; height:auto !important; min-height:490px; _height:100%; background:#fff; margin:0 auto;}
+.reg_main{ padding:45px 0 0 40px;}
+.reg_main1{ width:1000px; height:auto !important; min-height:490px; _height:100%; background:#fff; margin:0 auto;}
+.reg_border{ border-top:1px solid #d6d5d5;}
+
+/*reg Verification css*/
+.reg_success{ width:648px; margin:0 auto;}
+.reg_success1{ width:690px; margin:0 auto;}
+.reg_success2{ width:540px; margin:60px auto 0 auto;}
+.reg_top{ padding-top:38px;}
+.reg_top .reg_ok{ float:left;}
+.reg_top .reg_ok{ width:58px;}
+.reg_top .reg_con{ width:auto; margin-left:58px;}
+.reg_con .titleA, .reg_con a.shopping, .reg_con .content .conA, .reg_con .content .conB em, .reg_con .content .conB1 em{ color:#666;}
+.reg_con .title{ display:inline-block; padding-top:6px; font-size:18px; font-weight:bold; color:#6e9b0c; font-family:"微软雅黑";}
+.reg_con .titleA{ font-size:12px; height:34px; line-height:20px; display:block;}
+.reg_con .titleA a.editName{ color:#6e9b0c;}
+.reg_con .titleA a.editName:hover{ text-decoration:underline;}
+.reg_con a.shopping{ display:block; width:85px; height:30px; line-height:30px; background:#f5f5f5; margin:8px 0 15px 0; text-align:center; font-size:14px; border:1px solid #cdcdcd;}
+.reg_conBox{ width:690px; border:1px solid #e6e6e6; height:100px;}
+.reg_conBox .conBoxA{ width:110px; height:100px; float:left; background:#f5f5f5;}
+.reg_conBox .conBoxB span{ display:block;}
+.reg_conBox .conBoxB{ margin-left:110px; width:auto; padding-left:12px;}
+.conBoxB .conBoxB-1{ padding-top:20px; line-height:40px; font-size:18px; font-family:"微软雅黑";}
+.conBoxB .conBoxB-1 font{ color:#6e9b0c;}
+.conBoxB .conBoxB-2{ font-size:14px; font-family:"微软雅黑";}
+.conBoxB .conBoxB-2 font{ color:#ff4800;}
+.reg_bind{ width:540px;height:100px;}
+.reg_bind .conBoxC{font-size:18px; color:#515151;}
+.reg_bind .conBoxC font{ color:#fa9600;}
+.reg_success2 .binduser{ font-size:14px; color:#515151;}
+.reg_success2 .bindcenter .regShopping{ margin-left:75px;}
+.reg_con .content{ width:550px; padding:30px 0 30px 30px; border:1px solid #e6e6e6; border-radius:3px; background:#fdfffa; margin:5px 0 30px 0;}
+.reg_con .content span, .content span{ display:block; padding-bottom:13px;}
+.reg_con .content .conA, .content .conA{ font-size:14px; font-family:"微软雅黑";}
+.reg_con .content .conC{ font-size:14px; color:#6e9b0c; font-weight:bold; font-family:"微软雅黑";}
+.reg_con .conB, .reg_con .reg_emailError{ display:block;}
+.reg_con .conB{ height:25px;}
+.reg_con .reg_emailError{ height:18px; line-height:18px; color:#666; padding-left:52px;}
+.reg_con .content .conB em, .reg_con .content .conB1 em, .reg_con .content .conB input, .reg_con .content .conB1 input, .reg_con .content .conB a, .reg_con .content .conB1 a, .reg_con .conB em, .reg_con .conB input, .reg_con .conB a{ float:left; margin-right:5px; line-height:23px; border:none; outline:none;}
+.reg_con .titleA font, .reg_con .content .conA font, .content .conA font{ color:#ff4800;}
+.reg_con .content .conA a, .content .conA a{ color:#ff4800;}
+.reg_con .content .conA a:hover, .content .conA a:hover{ text-decoration:underline;}
+.reg_con .content .conB em, .reg_con .content .conB1 em, .reg_con .conB em{ font-size:12px;}
+.reg_con .content .conB input, .reg_con .content .conB1 input, .reg_con .conB input{height:23px; padding:0 5px;}
+.reg_con .content .conB input, .reg_con .content .conB1 input{ width:268px; border:1px solid #d7d7d6; }
+.reg_con .conB input, reg_con .conB input.email{ width:188px; color:#cdcdcd;}
+.reg_con .conB input{  border:1px solid #8baf3d;}
+.reg_con .conB input.email{ border:1px solid #d7d7d7;}
+.reg_con .conB a{ display:block; width:58px; height:23px; border:1px solid #cdcdcd; background:#f5f5f5; color:#666; text-align:center;}
+.reg_con .content .conB a{ display:block; background:url(/images/btn.jpg) left top no-repeat; width:76px; height:25px; line-height:25px; color:#fff; text-align:center;}
+.reg_con .content .conB1 a{ display:block; background:url(/images/btn1.jpg) left top no-repeat; width:92px; height:25px; line-height:25px; color:#fff; text-align:center;}
+
+.register a.submit{ display:block; width:271px; height:38px; line-height:38px; background:url(/images/reg_btn.jpg) left top no-repeat; text-align:center; color:#fff; font-size:16px; font-family:"微软雅黑";}
+.register a.submission, .register .submission{ display:block; width:271px; height:38px; line-height:38px; border:1px solid #ebebeb; border-radius:3px; text-align:center; color:#999; font-size:16px; font-family:"微软雅黑";}
+
+/*reg IndividualUser css*/
+.tabBox{ width:666px; margin:0 auto; padding-left:333px; height:37px;}
+.tabBox span{ display:block; float:left; text-align:center;}
+.tabBox .reg_show, .tabBox .reg_hide{ cursor:pointer; position:relative; top:1px; width:163px; height:38px; line-height:38px; font-family:"微软雅黑"; }
+.tabBox .reg_hide{ background: url(/images/tabbg1.jpg) left top no-repeat; font-size:14px;}
+.tabBox .reg_show{ background: url(/images/tabbg.jpg) left top no-repeat; font-size:16px;}
+.tabBox .reg_title{ display:block; border:1px solid #d6d5d5; background:#ececec; width:158px; height:29px; line-height:29px; margin-left:5px; color:#666; font-size:14px;}
+.tabBox .login{ width:130px; float:right; padding-top:14px; font-size:12px; color:#565656; }
+.tabBox .login a{ color:#6e9b0c;}
+.tabBox .login a:hover{ text-decoration:underline;}
+.reg_main ul{ position:relative; left:0; top:0;}
+.reg_main .regbind{ left:120px}
+.reg_main ul.individualUserBg{ background: url(/images/pic2.jpg) right 78px no-repeat;}
+.reg_main ul.individualUserBg li, .reg_main ul.individualUserBg1 li, .reg_main ul.enterpriseUsers li{ height:38px;}
+.reg_main .regbind .bindpass{ margin:15px 0 0 220px; float:left;}
+.checkTitle{ text-decoration:none;}
+.checkTitle:hover{ text-decoration:underline;}
+.reg_main .safetyLayer, 
+.reg_findPassword .safetyLayer{ height:28px; color:#666; padding-top:5px;}
+.reg_main .safetyLayer font, 
+.reg_main .safetyLayer em, 
+.reg_main .safetyLayer a, 
+.reg_findPassword .safetyLayer font, 
+.reg_findPassword .safetyLayer em, 
+.reg_findPassword .safetyLayer a{ display:block; float:left;}
+.reg_main .safetyLayer em, .reg_findPassword .safetyLayer em{ text-align:center; width:34px; margin-right:2px; color:#fff;}
+.reg_main .safetyLayer em.default, .reg_findPassword .safetyLayer em.default{ background:#c4c4c4;}
+.reg_main .safetyLayer em.ok, .reg_findPassword .safetyLayer em.ok{ background:#f79100;}
+.reg_main .safetyLayer a, .reg_findPassword .safetyLayer a{ color:#6e9b0c;}
+.reg_main li label, .reg_main li .regM, .reg_main li .reg_error, .reg_main li .reg_error1, .reg_main li .reg_error3, .reg_main li .reg_error4{display:block; float:left;}
+.reg_main li label font.f_0, .reg_main li .regM font.f_0, .reg_main li .reg_error font.f_0, .reg_main li .reg_error1 font.f_0, .reg_main li .reg_error3 font.f_0, .reg_main li .reg_error4 font.f_0{ line-height:36px;}
+.reg_main li label font.f_1, .reg_main li .regM font.f_1, .reg_main li .reg_error font.f_1, .reg_main li .reg_error1 font.f_1, .reg_main li .reg_error3 font.f_1, .reg_main li .reg_error4 font.f_1{ padding:2px 0; display:block;}
+.f-color{ color:#ff4800;}
+
+.reg_main li label{ width:118px; font-size:14px; color:#515151; height:38px; line-height:38px; text-align:right;}
+.reg_main li label font{ color:#ff4800;}
+.reg_main li .regM{ width:268px; height:36px; line-height:36px;}
+.reg_main li .regM .regOk, .reg_findPassword .regOk2, .reg_main li .regM .regInput, .loginreg_main .loginreg_m .regInput{ display:block; float:left;}
+.reg_main li .regInput{ width:228px; height:36px; line-height:36px; border:none; outline:none; color:#515151; padding:0 5px;}
+.reg_main li .bindwidth{ width:258px;}
+.reg_main li .reg_error, .reg_main li .reg_error1, .reg_main li .reg_error2, .reg_main li .reg_error3{ width:230px; /*padding-left:15px;*/ padding: 0 10px 0 15px; }
+
+
+.reg_main li .reg_error4{ width:240px; height:34px; line-height:34px; margin-left:15px; padding-left:15px; border:1px solid #ff9166; background:#fff4ef; color:#ff4800;}
+.reg_main li .reg_error{ color:#ff4800;}
+.reg_main li .reg_error1, .reg_main li .reg_error2{ color:#666;}
+.reg_main li .reg_error2{ display:block; float:left; height:36px;}
+
+.reg_main li .regM .regOk, .reg_main li .regOk1, .reg_form .regOk1{ background: url(/images/icon4.jpg) center no-repeat; width: 23px; height: 36px; }
+.reg_main li .regOk1, .reg_form .regOk1{ display: block; position: absolute; left: 158px; float: left;}
+
+.reg_findPassword li .regOk3{ display: block; position: absolute; left: 158px; float: left; background: url(/images/icon4.jpg) center no-repeat; width: 23px; height: 30px;}
+
+.reg_findPassword .regOk2{ display: block; position: relative; left: 0; float: left; background: url(/images/icon4.jpg) center no-repeat; width: 23px; height: 30px; }
+
+.reg_main li .regCodeInput{ float:left; padding:0 5px; width:58px; height:36px; line-height:36px\9;}
+.reg_main li .codeTitle, .reg_main li .checkTitle{ color:#565656;}
+.reg_main li .codeTitle{ width:86px; line-height:36px;}
+.reg_main li .codeTitle a, .reg_main li .checkTitle font, .loginreg_main li .checkTitle font, .reg_main li .reg_error a{ color:#6e9b0c;}
+.reg_main li .codeTitle a:hover, .reg_main li .reg_error a:hover, .reg_main a.invitationLink:hover, .reg_main .safetyLayer a:hover{ text-decoration:underline;}
+.reg_main .defaultBorder, .loginreg_main .defaultBorder, .reg_findPassword .defaultBorder{ border:1px solid #cdcdcd;}
+.reg_main .errorBorder, .loginreg_main .errorBorder, .reg_findPassword .errorBorder{ border:1px solid #ff4800;}
+.reg_main .okBorder, .loginreg_main .okBorder, .reg_findPassword .okBorder{ border:1px solid #6e9b0c;}
+.reg_main .registerNow, .reg_main a.regShopping{ display:block; float:left; margin-right:20px; line-height:38px;}
+.reg_main .registerNow{ display:block; float:left; width:271px; height:38px; background:url(/images/reg_btn.jpg) left top no-repeat; font-size:16px; text-align:center; color:#fff;}
+.reg_main .registerNow:hover{ background-position:0 -38px;}
+.reg_main .regdisabled{ background:#ccc; border-radius:2px; cursor:default;}
+.reg_main a.regShopping{ color:#6e9b0c;}
+.reg_main a.regShopping:hover{ text-decoration:underline;}
+.reg_main li .gvCode, .reg_form li .gvCode{ display:block; float:left; width:108px; height:38px; line-height:38px; border:none; outline:none; cursor:pointer; color:#999; background:url(/images/btn2.jpg) left top no-repeat; text-align:center;}
+.reg_main li .gvCode:hover, .reg_form li .gvCode:hover{ color:#6e9b0c;}
+
+.reg_main li .reg_gvCode, .reg_form li .reg_gvCode{ display:block; float:left; width:108px; height:30px; line-height:30px; border:none; outline:none; cursor:pointer; color:#999; background:url(/images/btn4.jpg) left top repeat-x; border:1px solid #e9e9e9; text-align:center;}
+.reg_main li .reg_gvCode:hover, .reg_form li .reg_gvCode:hover{ color:#6e9b0c;}
+.reg_main li .reg_gvCodeNo, .reg_form li .reg_gvCodeNo{ width:108px; height:30px; line-height:30px; background:#fff; text-align:center; color:#999; border:1px solid #eaeaea;}
+
+.reg_main .accountSearch, .loginRegForm .accountSearch{ position:absolute; z-index:99999; height:264px; background:#fff; border:1px solid #bbbbbb; overflow-y:auto;}
+.reg_main .accountSearch{left:88px; top:38px; width:268px; }
+.loginRegForm .accountSearch{left:0; top:47px; width:294px; }
+.accountSearch span{ display:block; cursor:pointer; height:26px; line-height:26px; padding-left:5px;}
+.accountSearch span:hover{ background:#cdcdcd;}
+.reg_main .regInvitationInput{ width:138px; height:34px; line-height:34px; padding:0 5px;}
+.reg_main a.invitationLink{ color:#6e9b0c; padding-left:8px;}
+.reg_main li .regM1 { width: 154px; height: 36px; line-height: 36px; display:block; float:left;}
+.reg_main li .regM1 .regPwdCode{ width: 119px; line-height:36px;height:36px; border: none; outline: none; color: #515151; padding: 0 5px; float:left; }
+.reg_main li .regM1 em.regOk{ background: url(/images/icon4.jpg) center no-repeat; width: 23px; height: 36px; float:left; }
+.reg_main li .gvCodeNo{ display: block; float: left; width: 108px; height: 38px; line-height: 38px; border: none; outline: none; cursor: pointer; color: #999; border:1px solid #d5d5d5; background:#fff; text-align: center; }
+.reg_main .m_9{ margin-left:9px;}
+
+/*EnterpriseUsers*/
+.reg_main ul.enterpriseUsers{ width:602px; height:auto !important; min-height:500px; border-right:1px dashed #d5d5d5; float:left;}
+.reg_main ul.rightTitle{ width:266px; float:right;}
+.reg_main ul.rightTitle .r_title{ height:38px; line-height:38px; padding-right:16px; color:#515151; font-size:14px; font-weight:bold; text-align:right;}
+.reg_main ul.rightTitle .r_tel{ font-size:14px; font-weight:bold; color:#6e9b0c; font-family:"微软雅黑";}
+.rightTitle li h3{ height:34px; line-height:34px; font-weight:bold; color:#515151;}
+.rightTitle li p{ line-height:24px;}
+.reg_main .accountTitle{ width:556px; height:34px; line-height:34px; padding-left:8px; font-size:14px; font-weight:bold; border-bottom:1px dashed #d5d5d5;}
+.reg_main .enterpriseUsers li{ position: relative;}
+.reg_main .enterpriseUsers li label{ width:100px; font-size:14px; color:#515151; height:38px; line-height:38px; text-align:right;}
+.reg_main .reg_error3{ position: absolute; right: -35px;}/* background:#f7f7f7; border:1px solid #e3e3e3;*/
+
+/*login_reg_layer*/
+.sf_layer{ position: fixed; z-index: 100; top: 0px; left: 0px; height: 100%; width: 100%; background:#000; opacity:0.2;}
+.login_reg_box{ width:412px; position:fixed; z-index:9999; background:#fff; border:4px solid #d3d3d3; radius-border:3px;}
+.login_reg_box .nolr_title{ background:#f5f5f5; height:32px; line-height:32px; padding-left:10px; font-size:14px; font-weight:bold; font-family:"微软雅黑"; color:#565656;}
+.login_reg_box .loginreg_main{ margin:10px 9px;}
+.loginregTab{ width:auto; height:31px; padding-left:15px;}
+.loginregTab .loginreg_show, .loginregTab .loginreg_hide{ display:block; float:left; cursor:pointer; position:relative; top:1px; margin:0 5px; width:87px; height:22px; padding-top:9px; text-align:center; font-size:14px; color:#565656; }
+.loginregTab .loginreg_hide{ background:url(/images/loginregbg1.jpg) left top no-repeat;}
+.loginregTab .loginreg_show{ background:url(/images/loginregbg.jpg) left top no-repeat; font-weight:bold;}
+.loginreg_main .loginRegForm{ position:; border-top:1px solid #ddd; min-height:260px; color:#515151;}
+.loginreg_main .loginRegForm ul{ width:300px; margin:0 auto; padding:20px 0;}
+.loginreg_main .loginRegForm ul li{ position:relative;}
+.loginreg_main .loginRegForm span{ display:block;}
+.loginreg_main .loginRegForm .loginreg_title{ height:20px; line-height:20px; font-size:12px;}
+.loginreg_main .loginRegForm .loginreg_m{ width:294px; height:30px; line-height:30px;}
+.loginreg_main .regInput{ width:255px; height:30px; line-height:30px; *+height:28px; float:left; padding:0 5px; border:0 none; outline:none; background:#fff;}
+.loginreg_main a.forgetPassword, .loginreg_main a.enterpriseUsers{ display:block; height:30px; line-height:30px;}
+.loginreg_main a.forgetPassword{ text-align:right; color:#aaa;}
+.loginreg_main a.forgetPassword:hover{ text-decoration:underline; color:#6e9b0c;}
+.loginreg_main a.enterpriseUsers{ text-align:center; color:#6e9b0c;}
+.loginreg_main a.enterpriseUsers:hover{ text-decoration:underline;}
+.loginreg_main a.layer_login{ letter-spacing:0.2em;}
+.loginreg_main a.layer_login, .loginreg_main a.layer_reg{ display:block; width:295px; height:34px; line-height:34px; background:url(/images/loginbg.jpg) left top no-repeat; font-size:16px; color:#fff; text-align:center;}
+.loginreg_main a.layer_login:hover, .loginreg_main a.layer_reg:hover { background-position:0 -35px;}
+.loginreg_main li{ position:relative; left:0; top:0;}
+.loginreg_main li span.line{ color:#176246;}
+.loginreg_main li a.link{ color:#176246; height:26px; line-height:26px; text-decoration:none;}
+.loginreg_main li a.link:hover{ text-decoration:underline;}
+.loginreg_main li .regCodeInput{ float:left; padding:0 5px; width:68px; height:30px; line-height:30px;}
+.loginreg_main li .regCodeImg{ height:30px;}
+.loginreg_main li .codeTitle, .reg_findPassword li .codeTitle{ width:86px; line-height:30px;}
+.loginreg_main li .codeTitle a, .reg_findPassword li .codeTitle a{ color:#6e9b0c;}
+.loginreg_main li .codeTitle a:hover, .reg_findPassword li .codeTitle a:hover{ text-decoration:underline;}
+.loginreg_main .loginreg_m .regok{ background: url(/images/icon4.jpg) center no-repeat; width:23px; height:30px;}
+.loginreg_main .loginreg_error, .loginreg_main .loginreg_error1, .loginreg_main .loginreg_error6{ height:23px; line-height:23px; padding:0 5px; background:#ffece5; position:absolute; left:0; top:47px; border:1px solid #eb7d52; z-index:999; color:#eb7d52;}
+.loginreg_main .loginreg_error2, .loginreg_main .loginreg_error3, .loginreg_main .loginreg_error5{ height:23px; line-height:23px; padding:0 5px; background:#fff; position:absolute; left:0; top:47px; border:1px solid #cdcdcd; z-index:999; color:#999;}
+.loginreg_main .loginreg_error4{ height:23px; line-height:23px; padding:0 5px; color:#999; border:1px solid #cdcdcd;}
+.loginreg_main .loginreg_error, .loginreg_main .loginreg_error2{ width:284px; }
+.loginreg_main .loginreg_error1, .loginreg_main .loginreg_error3{ width:68px; }
+.loginreg_main .loginreg_error4{ width:129px;}
+.loginreg_main .loginreg_error5, .loginreg_main .loginreg_error6{ width:153px;}
+.close_loginreg{ cursor:pointer; position: absolute; right: 5px; top: 0; width:32px; height:32px; background:url(/images/close.jpg) center no-repeat;}
+
+/*find Password*/
+.findPasswordBorder{ border:1px solid #dcdcdc;}
+.reg_findTitle{ height:30px; padding-left:13px; background:#f5f5f5; line-height:30px; color:#6a6a6a; font-size:14px; font-family:"微软雅黑"; font-weight:bold;}
+.reg_find1, .reg_find2, .reg_find3, .reg_find4{ margin:20px auto 40px auto; width:876px; height:25px; background:url(/images/find.jpg) left top no-repeat;}
+.reg_find2{ background-position:0 -26px;}
+.reg_find3{ background-position:0 -52px;}
+.reg_find4{ background-position:0 -78px;}
+.reg_findPassword{ width:876px; margin:0 auto;}
+.reg_findPassword li.regliA{ height:32px; position:relative;}
+
+.reg_findPassword li.regliA span.regliA_0{ width:268px;}
+
+.reg_findPassword li.regliB{ height:54px;}
+.reg_findPassword li label, .reg_findPassword li span{ float:left;}
+.reg_findPassword li label{ width: 118px; font-size: 14px; color: #515151; height: 32px; line-height: 32px; text-align: right;}
+.reg_findPassword li label font{ color: #ff4800;}
+.reg_findPassword li .regInput, .reg_findPassword li .reg_error{ height:30px; line-height:30px;}
+
+.reg_findPassword li .regInput{ width: 230px; border: none; outline: none; color: #515151; padding: 0 5px; float:left;}
+
+.reg_findPassword li .reg_error{ width:214px; padding:0 10px; border:1px solid #fda37f; background:#fff4ef; color:#ff4800; margin-left:10px;}
+.reg_findPassword li .reg_error1{ width:214px; line-height:30px; padding:0 10px; margin-left:10px; color:#666;}
+.reg_findPassword li .regCodeInput{ float:left; padding:0 5px; width:58px; height:30px; line-height:30px;}
+.reg_findPassword li .reg_next, .reg_findPassword li .reg_emailOk{display:block; margin-left:118px; height:25px; line-height:25px; text-align:center; color:#fff;}
+.reg_findPassword li .reg_next, .reg_con .content .conB a{ width:76px; background:url(/images/btn.jpg) left top no-repeat;}
+.reg_findPassword li .reg_next:hover, .reg_con .content .conB a:hover{ background-position:0 -25px;}
+.reg_findPassword li .reg_emailOk{ width:102px; background:url(/images/btn1.jpg) left top no-repeat;}
+.reg_findPassword li .reg_emailOk:hover{ background-position:0 -26px;}
+.reg_findPassword li .phoneFind, .reg_findPassword li .emailFind{margin:0 10px; width:122px; height:35px; padding-top:23px; color:#6e9b0c; font-size:14px; padding-left:50px;}
+.reg_findPassword li .emailFind:hover, .reg_findPassword li .phoneIcon1:hover{ width:120px; border:1px solid #dadada;}
+.reg_findPassword li .phoneIcon{ background:url(/images/icon6.png) 18px center no-repeat; border:1px solid #e1e1e1;}
+.reg_findPassword li .phoneIcon1{ cursor:pointer; background:#ededed url(/images/icon6.png) 18px center no-repeat;}
+.reg_findPassword li .emailIcon{ background:url(/images/icon5.png) 18px center no-repeat;}
+.reg_findPassword li .emailIcon1{ background:url(/images/icon5.png) 18px center no-repeat; border:1px solid #e1e1e1;}
+.reg_findPassword li .emailFind{ cursor:pointer; background:#ededed url(/images/icon5.png) 18px center no-repeat;}
+.reg_findPassword li .verificationPhone, .reg_findPassword li .verificationCode, .reg_findPassword li .phoneNo{ line-height:32px; float:left; font-size:14px;}
+.reg_findPassword li .verificationPhone, .reg_findPassword li .verificationCode{ width:92px; line-height:32px; color:#515151; float:left;}
+.reg_findPassword li .phoneNo{ width:105px; font-size:16px; font-family:"微软雅黑"; color:#6e9b0c; font-weight:bold;}
+.reg_findPassword li .gvCode, .reg_findPassword li .gvCodeNo, .reg_form .gvCodeNo, .login_reg_box li .gvCodeNo{ margin-left:10px; border:none; outline:none; text-align:center;}
+.reg_findPassword li .gvCode{ cursor:pointer; width:121px; height:32px; background:url(/images/btn3.jpg) left top no-repeat; color:#666;}
+.reg_findPassword li .gvCode:hover{ color:#6e9b0c;}
+.reg_findPassword li .gvCodeNo, .reg_form .gvCodeNo{ width:119px; height:30px; border:none; outline:none; border:1px solid #e9e9e9; background: #fff; color:#999;}
+
+.reg_findPassword li .verificationInput{ width:60px; height:30px; line-height:30px; border:1px solid #cdcdcd; padding:0 5px;}
+.reg_findPassword li .codeTitleN{ display:block; padding-left:94px; height:20px; line-height:20px; color:#515151;}
+.reg_findPassword .reg_email1{ width:460px; margin:0 auto; min-height:160px;}
+.reg_findPassword .reg_iconOk{ float:left; width:52px; height:52px; background:url(/images/icon3.jpg) left top no-repeat;}
+.reg_findPassword .reg_iconOk2{ float:left; width:52px; height:52px; background:url(/images/icon7.jpg) left top no-repeat;}
+.reg_findPassword .reg_iconOk1{ float:left; width:100px; height:75px; background:url(/images/pic3.jpg) left top no-repeat;}
+.reg_findPassword .reg_email1_con{ margin-left:52px; width:auto;}
+.reg_findPassword .reg_email1_con1{ margin-left:100px; width:auto;}
+.reg_email1_con span, .reg_email1_con1 span{ display:block; line-height:34px; padding-left:8px; color:#515151; font-size:14px;}
+.reg_email1_con span font.emailColor, .reg_email1_con1 span font.emailColor{ color:#6e9b0c; font-size:16px; font-weight:bold; font-family:"微软雅黑";}
+.reg_email1_con span a.sendAgain, .reg_email1_con1 span a.sendAgain{ color:#6e9b0c;}
+.reg_email1_con span a.sendAgain:hover, .reg_email1_con1 span a.sendAgain:hover{ text-decoration:underline;}
+.reg_email1_con span .sendAgain{ margin-top:-5px; border:none; outline:none; cursor:pointer; background:#fff; color:#6e9b0c; font-size:14px;}
+.reg_email1_con span .sendAgain:hover{ text-decoration:underline;}
+.reg_email1_con span a.loginEmail, .reg_email1_con span.loginEmail, .reg_email1_con1 span a.loginEmail, .reg_email1_con1 span.loginEmail{ cursor:pointer; display:block; background:url(/images/btn.jpg) left top no-repeat; width:76px; height:25px; line-height:25px; font-size:12px; color:#fff; text-align:center;}
+.reg_email1_con span a.loginEmail:hover, .reg_email1_con span.loginEmail:hover, .reg_email1_con1 span a.loginEmail:hover, .reg_email1_con1 span.loginEmail:hover{ background-position:0 -25px;}
+.reg_findPassword .reg_email2{ width:220px; margin:100px auto 0 auto; padding:0 0 0 35px; height:25px; line-height:25px; background:url(/images/icon8.png) no-repeat; font-size:14px;}
+.reg_findPassword .reg_login{ margin:50px auto 0 auto; width:202px;}
+.reg_findPassword .reg_login a{ cursor:pointer; width:202px; height:40px; line-height:36px; display:block; background:#6e9b0c; border-radius:5px; color:#fff; text-align:center; font-size:18px; font-weight:bold;}
+.reg_main .sf_ad{width:322px; height:322px; background:#ccc; float:left; margin:10px 0 0 10px; text-align:center;}
+
+.regPl88{ padding-left:88px;}
+.regPl191{ padding-left:191px;}
+.regPl202{ padding-left:202px;}
+.regPl260{ padding-left:240px;}
+.regPl90{ padding-left:90px;}
+.regPl52{ padding-left:52px;}
+.regMt{ margin-top:5px;}
+.regMt8{ margin-top:8px;}
+.regMt10{ margin-top:10px;}
+.regMt12{ margin-top:3px;}
+.regMt18{ margin-top:18px;}
+.regMt22{ margin-top:22px;}
+.regMt30{ margin-top:30px;}
+.regMl6{ margin-left:6px;}
+.regMl10{ margin-left:10px;}
+.regMr5{ margin-right:5px;}
+.regMb5{ margin-bottom:5px;}
+.regMb10{ margin-bottom:10px;}
+.regMb15{ margin-bottom:15px;}
+.regMb18{ margin-bottom:18px;}
+.regMb30{ margin-bottom:30px;}
+.ui-reg-tip{padding:15px 10px 10px 45px;border-top:1px dotted #dcdcdc;position:relative;left:-30px;width:930px;background:url(/images/reg_tip.png) no-repeat 25px 16px;}
+.ui-reg-tip a:link,.ui-reg-tip a:visited,.ui-reg-tip a:hover{color:#669900;}
+
+
+/*推荐有奖相关css*/
+.recommend{ width:400px; margin:0 auto;}
+.ptb{ padding-top:68px; padding-bottom:60px;}
+.recomm-bg{ position:relative; background:url(/images/recommend8.jpg) top left no-repeat; width:188px; height:159px; margin:0 auto;}
+.recomm-bg em{ height:38px; line-height:38px; font-family:microsoft yahei; font-size:36px; color:#fff; display:inline-block; margin:34px 45px;}
+.recomm-bg .ylq-img{ position:absolute; right:-15px; bottom:-8px}
+.recomm-style{ text-align:center;}
+.recomm-style span, .recomm-style a{ display:block;}
+.recomm-style .sty1{ padding-top:16px; font-size:14px; color:#636363;}
+.recomm-style .sty1 em{ color:#6aaf06;}
+.recomm-style .sty2{ padding-top:13px; padding-bottom:46px; font-size:12px; color:#666;}
+.recomm-style .sty3{ width:252px; height:44px; line-height:44px; margin:0 auto; background:#6aaf06; border-radius:3px; color:#fff; text-align:center; font-size:14px; font-weight:bold; letter-spacing:0.2em;}
+.recomm-style .sty4{ padding-top:6px; font-size:14px; color:#636363;}
+.recomm-style .mtop{ margin-top:20px;}
+.recomm-style .mtop1{ margin-top:50px;}
+
+
+/*推荐弹层*/
+.oDialog {border: 1px solid #ddd; position: fixed; z-index: 99998; color: #646464;}
+.sh_tj_w{ background:#fff; width:280px; min-height:60px; border-radius:3px; border:1px solid #d7d7d7;}
+.sh_tj_w .ui-tjworld{ padding:20px; text-align:center; font-size:12px; line-height:18px;}
+.sh_tj_w .ui-tjbtnBox{ margin:0 auto; width:60px; margin-bottom:20px;}
+.sh_tj_w .ui-tjbtn{ width:60px; height:25px; background:#69af05; border-radius:2px; outline:none; border:none; color:#fff; text-align:center; margin:0 auto; cursor:pointer;}
+.window_bg{ width: 100%; height: 100%; position: absolute; z-index: 99997; left:0; top:0; background: #646464; opacity: 0.5; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+
+/*reg 跳转*/
+.tzBox{ width:490px; margin:0 auto;}
+.tzTips{ position:relative; background:url(/images/tz_tips.jpg) top left no-repeat; width:87px; height:77px; margin:0 auto;}
+.recomm-style .sty5{ padding-top:16px; height:128px; line-height:42px; font-family:"微软雅黑"; font-size:18px; color:#000;}
+.recomm-style .sty6{ color:#729a21; padding-top:20px;}
+.recomm-style .sty6:hover{ text-decoration:underline;}
