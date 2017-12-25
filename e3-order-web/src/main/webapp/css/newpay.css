@@ -1,0 +1,133 @@
+body{text-algin:center;margin:0px;font-size:12px; font-family:Arial, Helvetica, sans-serif;padding:0; background:#f5f5f5;}
+/*--logocss--*/
+.floatleft{ float:left;}
+.clearfix{zoom:1;}
+.clearfix:after{content: "."; display: block; height:0; clear: both; visibility:hidden;}
+.payclear{ height:0px; clear:both; overflow:hidden;}
+.logoPay{ height:78px; border-bottom:1px solid #dcdcdc; background:#fff;}
+.logoPayBox{ width:1000px; margin:0 auto; height:73px;}
+.logoPayBox img{ padding-top:3px;}
+.pay_main{ background:#f5f5f5; font-family:"microsoft yahei"; min-height:500px;}
+.pay_main .pay_newbox{ width:960px; min-height:102px; margin:0 auto; padding:0 20px; color:#323232;}
+.pay_main .pay_left{ float:left; width:700px;}
+.pay_main .pay_left span{ display:block;}
+.pay_main .pay_word1{ font-size:16px; height:31px; line-height:31px; padding-top:20px;}
+.pay_main .pay_word1 .payOkicon,.pay_main .pay_word1 .payOkicon1{ display:inline-block; position:relative; top:9px; top:0px\9; margin-right:6px; float:left\9; background:url(/images/pay/icon.png) left top no-repeat; }
+.pay_main .pay_word1 .payOkicon{ width:31px; height:31px;}
+.pay_main .pay_word1 .payOkicon1{ width:30px; height:30px; background-position:-59px -28px;}
+.pay_main .oay_btns{ margin:30px; height:32px; font-size:14px;}
+.oay_btns .pay_btn, .oay_btns .pay_btn1{ margin-left:10px; height:18px; line-height:18px; padding:6px 10px; display:inline-block; border-radius:3px; }
+.oay_btns .pay_btn{ background:#fa9600; border:1px solid #fa9600; color:#fff;}
+.oay_btns .pay_btn:hover{ background:#fa6400; border:1px solid #fa6400;}
+.oay_btns .pay_btn1{ background:#fff; border:1px solid #e6e6e6; color:#646464;}
+.oay_btns .pay_btn1:hover{ background:#fff; border:1px solid #e6e6e6; color:#669900}
+.pay_main .pay_word2{ font-size:12px; height:18px; line-height:18px; padding:15px 0 0 40px;}
+.pay_main .pay_word2 em{ color:#fa6400;}
+.pay_main .pay_Rmoney{ width:210px; height:30px; line-height:30px; float:right; text-align:right; font-size:16px; padding-top:50px; overflow:hidden;}
+.pay_main .pay_Rmoney .pay_price{ color:#fa6400; font-size:20px;}
+.pay_main .pay_ment{ width:980px; padding:20px 10px; margin:0 auto; background:#fff url(/images/pay/pay_line.jpg) top left repeat-x;}
+.pay_main .pay_name{ height:18px; line-height:18px; font-size:16px; padding:0 10px;}
+.pay_main .pay_name .pay_lj{ color:#969696; font-size:12px; text-decoration:none; padding-left:20px;}
+.pay_main .pay_name .pay_lj i{ margin-left:20px; background:url(/images/pay/icon.png) left top no-repeat; background-position:-32px 0; width:18px; height:18px; display:inline-block; float:left\9; position:relative; top:1px; margin-right:3px;}
+.pay_main .pay_name1{ padding:0 10px;}
+.pay_name1 .pay_wxTitle{ height:24px; line-height:24px; font-size:16px;  border-bottom:1px dashed #dcdcdc; padding:0 0 10px 10px; color:#333;}
+.pay_name1 .pay_wxTitle .wxIcon{ background:url(/images/pay/wx-icon.jpg) left top no-repeat; width:28px; height:23px; display:inline-block; position:relative; top:4px; margin-right:8px;}
+.pay_wxCon{ color:#333;}
+.pay_wxCon li.li-1, .pay_wxCon li.li-2, .pay_wxCon li.li-3{ float:left;}
+.pay_wxCon li.li-1{ width:390px;}
+.pay_wxCon li.li-2{ width:260px; height:420px;}
+.pay_img_wrapper{ position:relative; display:block; height:260;}
+.pay_wxCon li.li-2 img, .pay_wxCon li.li-2 img{ border:none;}
+.pay_wxCon li.li-2 .wx-a{ width:260px; height:260px; margin-top:30px;}
+.pay_wxCon li.li-2 .wx-b{ width:260px; height:80px; margin-top:10px;}
+.pay_wxCon li.li-2 .wx-phone{ display:none; opacity:0; position:absolute; top:60px; left:30px; width:201px; margin-left:-101px; height:290px;}
+.pay_wxCon li.li-2 img, .pay_wxCon li.li-3 img{ border:0px;}
+.pay_wxCon li span{ display:block;}
+.pay_wxCon .wx_price{ font-size:72px; color:#ea5404; padding-top:8px; font-family:'microsoft yahei';}
+.pay_wxCon .wx_price em{ font-size:36px;}
+.pay_wxCon .wx_style{ padding-left:10px; line-height:20px; font-size:12px;}
+
+.pay_main .pay_ment_0{ min-height:55px; border-bottom:1px dotted #dcdcdc; padding:20px 10px 0 10px;}
+.pay_main .pay_ment_0 li{ height:48px; float:left; padding:0 8px 10px 0; list-style:none;}
+.pay_main .pay_ment_0 li a{ display:inline-block;}
+.pay_main .pay_ment_0 li .border{ border:1px solid #e6e6e6;padding:1px;}
+.pay_main .pay_ment_0 li .borderOn{ border:2px solid #69af05;padding:0px;}
+.pay_main .pay_ment_0 li.pay_posit{ position:relative;}
+.pay_main .pay_ment_0 li.li_h{ height:39px;}
+.pay_main .tips_w0{ width:58px;}
+.pay_main .tips_w1{ min-width:132px;}
+.pay_main .pay_tips1, .pay_main .pay_tips2, .pay_main .pay_tips3{ position:absolute; right:11px; width:19px; height:18px; background:url(/images/pay/icon.png) left top no-repeat; background-position:-50px 0;}
+.pay_main .pay_tips1{bottom:22px;}
+.pay_main .pay_tips2{bottom:3px;}
+.pay_main .pay_tips3{bottom:16px;}
+.pay_main .pay_tips{ position:absolute;margin-top:-20px;height:18px; line-height:18px; border:1px solid #fa6400;}
+.pay_main .pay_tips span{ display:inline-block; float:left\9;}
+.pay_main .pay_tips .tip_l{ width:20px; height:18px; background:#fa6400; text-align:center; color:#fff;}
+.pay_main .pay_tips .tip_r{ padding-left:5px; color:#fa6400;}
+.pay_main .pay_more a{ padding-left:20px; height:36px; line-height:36px; color:#669900; font-size:12px; text-align:center; text-decoration:none;}
+.pay_main .pay_more:hover{ text-decoration:underline;}
+.pay_more .pay_moreIcon, .pay_proMore .pay_moreIcon{ width:13px; height:10px; background:url(/images/pay/icon.png) left top no-repeat; display:inline-block; position:relative; top:2px; right:-2px;}
+.pay_proMore .pay_moreIcon{ background-position: -45px -19px;}
+.pay_more .pay_moreIcon, .pay_proMore:hover .pay_moreIcon{ background-position:-32px -19px;}
+.pay_main .pay_btn{ text-align:center;}
+.pay_main .pay_btn a{ display:inline-block; width:190px; height:55px; line-height:55px; margin:20px 0; background:#fa6400; text-align:center; color:#fff; font-size:22px; border-radius:2px;}
+.pay_main .pay_btn a:hover{ background:#ea5404;}
+.pay_main .hide{ display:none;}
+.pay_main .pay_m1{ margin-top:20px;}
+.pay_main .pay_m2{ margin-top:19px;}
+.pay_orderList{ padding:0 46px 20px 46px; border-bottom:1px dotted #dcdcdc;}
+.pay_orderWord{ display:block; height:20px; line-height:20px; padding:7px 0; font-size:12px; color:#333;}
+
+table { border-collapse:collapse; border-spacing:0; }
+.pay_table{ table-layout:word-wrap:break-word; word-break:break-all; color:#333;}
+.pay_table td{ border:1px solid #e6e6e6;}
+.pay_table .pay_trTop td{ height:38px; line-height:38px; text-align:center; font-size:14px; background:#f9f9f9;}
+.pay_table .pay_trWord td.padd0{ padding:10px;}
+.pay_table .pay_trWord td.padd0 .padd0Box{ position:relative;}
+.pay_table .pay_trWord td.padd1{ padding:10px 10px 10px 20px; vertical-align:top;}
+.pay_table .pay_trWord td.padd1 div.lineH0{ padding-top:50px;}
+.pay_table .pay_trWord td.padd1 div.lineH1{ padding-top:30px;}
+.pay_table .subOrder{ display:block; position:relative; left:0; top:-10px; width:64px; height:20px; line-height:20px; text-align:center; padding:0 4px; background:url(/images/pay/pay_smOrderBg.jpg); font-size:12px; color:#fff; overflow:hidden;}
+.pay_product .pay_proL{ width:75%; float:left; min-height:60px; line-height:58px;}
+.pay_proL a{ display:block; width:58px; height:58px; border:1px solid #fff; margin:10px; float:left;}
+.pay_proL a:hover{ border:1px solid #dcdcdc;}
+.pay_proL img{ overflow:hidden; border:none;}
+.pay_product .pay_proR{ width:25%; *+position:absolute; *+top:0; *+right:0px; float:right; vertical-align:top; padding-top:30px; color:#969696; text-align:right; }
+.pay_table .pay_proMore{ position:absolute; bottom:20px; right:10px; height:18px; line-height:18px; font-size:12px; color:#333;}
+.pay_table .pay_proMore:hover{ color:#669900;}
+.pay_links{ padding:20px 10px 20px 56px; height:22px; line-height:22px;}
+.pay_links a{ display:inline-block; line-height:22px; padding-right:14px; color:#669900; text-decoration:none;}
+.pay_links a:hover{ text-decoration:underline;}
+.pay_ment_color{ color:#ea5404;}
+
+.pay_ordWordBox{ width:1000px; height:82px; margin:0 auto;}
+.pay_ordWord{ width:940px; padding:10px 0; border-top:1px dotted #b0b0b0; margin-left:60px; color:#333;}
+.pay_ordWord span{ display:block; height:18px; line-height:18px;}
+.pay_ordWord span label, .pay_ordWord span em{ line-height:30px;}
+.pay_ordWord span em{ margin-left:10px; color:#fa6400; font-size:12px;}
+.pay_ordWord .pay_oW1{ padding-bottom:8px;}
+.pay_ordWord .pay_oW1 em{ color:#669900;}
+.pay_ordWord .pay_inp_time{ width:204px; height:18px; line-height:18px; border:1px solid #ddd; padding:5px 10px; margin:0 10px;}
+.pay_ordWord .pay_ordBtn{ cursor:pointer; line-height:18px; padding:5px 10px; border-radius:2px; border:none; background:#6bc30d; color:#fff;}
+.pay_ordWord .pay_ordBtn:hover{ background:#69af05;}
+
+/*---付款弹层---*/
+.window_bg{ width: 100%; height: 100%; position: absolute; z-index: 99997; left:0; top:0; background: #646464; opacity: 0.5; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+.oDialog{ border:1px solid #ddd; position: fixed; z-index:99998; background:#fff; color:#646464; }
+.order_bg{ background:url(/images/pay/icon.png) left top no-repeat;}
+.oDig_w{ background:#fff; width:420px; min-height:156px; }
+.ui-dig-close2{ float:right; display:inline-block;}
+.ui-dig-close2{ width:27px; height:27px; background-position:0 -31px; margin: 10px 10px 0 0;}
+.ui-dig-close2:hover{ background-position:-26px -31px;}
+.ui-dig-size{ font-size:16px; padding:0 30px; color:#646464;}
+.ui-dig-p{ text-align:left; padding:15px 30px;}
+.ui-dig-con{ padding:15px; text-align:center;}
+.ui-dig-btn{ text-align:center; padding:5px;}
+.ui-dig-btn .ui-m{ margin-right:10px;}
+.ui-dig-btn .oBtn, .ui-dig-btn .oBtn1{ display:inline-block; cursor:pointer; border:none; outline:none; outline-style:none; bblr:expression(this.onFocus=this.blur()); padding:0 15px; text-align:center; }
+.ui-dig-btn .oBtn{  border:1px solid #e6e6e6; border-radius:2px; height:24px; line-height:24px; background:#fff; color:#646464;}
+.ui-dig-btn .oBtn:hover{ color:#669900; }
+.ui-dig-btn .oBtn1{ border-radius:2px; height:26px; line-height:26px; background:#6bc30d; color:#fff;}
+.ui-dig-btn .oBtn1:hover{ color:#fff; background:#6aaf04;}
+.ui-dig-p0{ text-align:left; padding:10px 30px 30px;}
+.paytips{ background:url(/images/paytips.png) left top no-repeat; width:144px; height:22px; padding-top:14px; position:absolute; bottom:-16px; left:-8px; color:#fff; text-align:center;}
