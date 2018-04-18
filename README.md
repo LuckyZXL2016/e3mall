@@ -1,5 +1,4 @@
-# e3mall
-宜立方商城
+# 宜立方商城
 
 开发环境： eclipse+maven+svn+linux+easyui
 
