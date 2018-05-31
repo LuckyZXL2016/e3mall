@@ -8,6 +8,7 @@
 
 	<!-- 集中定义依赖版本号 -->
 	<properties>
+		<fastdfs_client.version>1.25</fastdfs_client.version>
 		<junit.version>4.12</junit.version>
 		<spring.version>4.2.4.RELEASE</spring.version>
 		<mybatis.version>3.2.8</mybatis.version>
@@ -93,6 +94,11 @@
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-log4j12</artifactId>
 				<version>${slf4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>fastdfs_client</groupId>
+				<artifactId>fastdfs_client</artifactId>
+				<version>${fastdfs_client.version}</version>
 			</dependency>
 			<!-- Mybatis -->
 			<dependency>
